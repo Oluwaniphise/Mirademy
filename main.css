@@ -1,0 +1,9 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar-default{
+    background:rgb(255,255,255) !important;
+}
+img{
+    width:150px;
+}
