@@ -1,5 +1,6 @@
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 img{
     width:130px;
@@ -55,8 +56,21 @@ nav ul li a:hover{
     letter-spacing: 0.3rem;
     font-weight:600;
 }
-.img_overlay_par {
+.img_overlay_par{
   font-size:1.2rem;
+}
+input[type="text"]{
+    width:280px;
+    padding:5px 10px;
+    border:1px solid white;
+}
+input[type="submit"]{
+    background:#216112;
+    margin-top:10px;
+    color:white;
+    padding:5px 10px;
+    border-radius:3px;
+    border:1px solid #216112;
 }
 
 
@@ -64,7 +78,7 @@ nav ul li a:hover{
 @media screen and (max-width:576px){
 
     .img_overlay_heading{
-        font-size:1.3rem; 
+        font-size:1.25rem; 
         letter-spacing: 0.1rem;
         font-weight:450;
     }
