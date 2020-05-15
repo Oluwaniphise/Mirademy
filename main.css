@@ -19,8 +19,8 @@ nav ul li a:hover{
 }
 
 
-/*
-.button{
+
+/*.button{
     background:#216112;
     color:white !important;
     padding:5px;
@@ -52,8 +52,8 @@ nav ul li a:hover{
     text-align:center;
 }
 .img_overlay_heading{
-    font-size:2.1rem; 
-    letter-spacing: 0.3rem;
+    font-size:2.5rem; 
+    letter-spacing: 0.2rem;
     font-weight:600;
 }
 .img_overlay_par{
@@ -84,7 +84,7 @@ i{
     .img_overlay_heading{
         font-size:1.25rem; 
         letter-spacing: 0.1rem;
-        font-weight:450;
+        font-weight:500;
     }
     .img_overlay_par {
       font-size:1rem;
