@@ -1,4 +1,5 @@
 body{
+    overflow-x:hidden;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
@@ -40,7 +41,7 @@ nav ul li a:hover{
 }
 .img-overlay-text{
     position:relative;
-    z-index: 10;
+    z-index: 4;
     height:100%;
     width: 100%;
     max-width: 100%;
@@ -76,11 +77,22 @@ input[type="submit"]{
 i{
     color:#216112;
 }
+#popular_courses a{
+    color:#216112;
+    text-decoration:none;
+}
+  .card img{
+    width: 100px;
+    height:100px;
+    border-radius:50%;
+
+} 
 
 
 
 @media screen and (max-width:576px){
 
+   
     .img_overlay_heading{
         font-size:1.25rem; 
         letter-spacing: 0.1rem;
@@ -88,5 +100,13 @@ i{
     }
     .img_overlay_par {
       font-size:1rem;
+    }
+    .card{
+        width:80% !important;
+    }
+}
+@media screen and (max-width:992px){
+    .col-md-4 .card{
+        margin:1rem;
     }
 }
